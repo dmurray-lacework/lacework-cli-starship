@@ -6,4 +6,4 @@ A custom starship prompt for the lacework-cli
 
 ## Setup
 
-Copy lacework-starship.sh and starship.toml to ~/.config/
+Copy starship.toml to ~/.config/

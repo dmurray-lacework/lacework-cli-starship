@@ -1,5 +1,5 @@
 [custom.lacework]
-command = "~/.config/lacework-starship.sh"  # shows output of command
+command = "LW_TELEMETRY_DISABLE=1 lacework version | head -n 1 | awk '{print $2;}'"
 style = "bold #0ba3df"
 when = "true"
 symbol = "🧵 "
