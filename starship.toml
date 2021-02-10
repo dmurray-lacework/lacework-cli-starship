@@ -1,0 +1,6 @@
+[custom.lacework]
+command = "~/.config/lacework-starship.sh"  # shows output of command
+style = "bold #0ba3df"
+when = "true"
+symbol = "🧵 "
+format = "via [$symbol$output]($style) "
